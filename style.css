@@ -38,7 +38,7 @@ body{
 
 /* -------------contactos---------------- */
 .contacto{
-    background-color: #d8914e;
+    background-color: #d1ab83;
 }
 
 .tarjeta{
@@ -61,4 +61,11 @@ body{
 }
 .btn{
     background-color: rgb(216, 210, 191);
+}
+
+/* ------pie de pagina */
+.footer{
+    background-color: #A5723B;
+    text-align: center;
+    size: 15px;
 }
