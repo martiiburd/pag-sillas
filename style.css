@@ -13,10 +13,11 @@ body{
    
 }
 
-.galeria{
+.padd{
     padding-top: 4rem;
 }
 
+/*------------- galeria -------------- */
 .div-galeria{
     text-align: center;
     border-radius: 1px solid #A5723B;
@@ -32,4 +33,32 @@ body{
 }
 .catalogo{
     background-color: #d1ab83;
+}
+/* --------------------------------- */
+
+/* -------------contactos---------------- */
+.contacto{
+    background-color: #d8914e;
+}
+
+.tarjeta{
+    display: grid;
+    place-items: center;
+    margin: auto;
+    width: fit-content;
+    height: min-content;
+    padding: 1rem;
+    text-align: center;
+    background-color: #CF9E6B;
+    
+}
+.form{
+    padding: 1rem;
+    margin-top: 10px;
+    place-items: center;
+    text-align: center;
+    background-color: #d1ab83;
+}
+.btn{
+    background-color: rgb(216, 210, 191);
 }

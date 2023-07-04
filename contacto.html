@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Contacto</title>
+    <title>Contacto 📞</title>
 </head>
 <body>
 <header>
@@ -27,21 +27,59 @@
           <a class="nav-link" href="galeria.html" target="_self">Galeria</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contacto.html" target="_self" >Contacto</a>
+          <a class="nav-link" href="contacto.html" target="_self" >Contacto📞</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 </header>
-    <h2>Contacto</h2>
+
+<section class="padd">
+    <h2 class="rounded contacto">Contacto </h2>
     
-    <form action="">
+    <div class="tarjeta rounded">
+        <div">
+            <p>¿Consideras que tienes una silla especial?</p>
+            <p>No tardes en contactarnos </p>
+        </div>
+    </div>
 
-
+    <form class="form rounded">
+        
+        <div class="row">
+            <div class="col-auto">
+                <label>Nombre</label>
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+            </div>
+            <div class="col-auto">
+                <label>Apellido</label>
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-auto">
+                <label >Email</label>
+                <input type="email" class="form-control" placeholder="example@gmail.com" aria-describedby="emailHelp">
+              </div>
+            <div class="col-auto">
+                <label class="form-label">Seleccione su archivo</label>
+                <input class="form-control" type="file">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-auto">
+                <label class="form-label">Cuentenos un poco de la imagen..</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+        <div class="col-6">
+            <button type="submit" class="btn">Submit</button>
+          </div>
+    
 
     </form>
-
+</section>
     
     
 </body>
