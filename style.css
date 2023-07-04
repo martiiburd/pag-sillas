@@ -1,8 +1,33 @@
-.navbar{
+.container-fluid{
     position: fixed;
+    top: 0;
+    padding: 1rem;
+    background-color: #CF9E6B;
+    text-align: center;
+
 }
 
 body{
     background-image: url("./img/fondo.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+   
+}
+
+.galeria{
+    padding-top: 4rem;
+    
+    
+}
+.div-galeria{
+    text-align: center;
+    border-radius: 1px solid #A5723B;
+
+}
+.zoom{
+    transition: 0.5s;
+    object-fit: cover;
+
+}
+.zoom:hover{
+    transform: scale(1.2);
 }
