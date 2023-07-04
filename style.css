@@ -15,9 +15,8 @@ body{
 
 .galeria{
     padding-top: 4rem;
-    
-    
 }
+
 .div-galeria{
     text-align: center;
     border-radius: 1px solid #A5723B;
@@ -30,4 +29,7 @@ body{
 }
 .zoom:hover{
     transform: scale(1.2);
+}
+.catalogo{
+    background-color: #d1ab83;
 }
