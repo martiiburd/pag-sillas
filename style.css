@@ -1,11 +1,8 @@
 .navbar{
-    /* background-color: black;
-    padding: 1rem;
-    position: sticky;
-    top: 0 */
-    position: sticky;
-  width:60%;
-  height: 30px;
-  background-color: white;
-  border: 2px solid black;
+    position: fixed;
+}
+
+body{
+    background-image: url("./img/fondo.png");
+    background-repeat: no-repeat;
 }
