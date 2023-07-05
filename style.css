@@ -64,8 +64,38 @@ body{
 }
 
 /* ------pie de pagina */
-.footer{
+.pie{
     background-color: #A5723B;
     text-align: center;
     size: 15px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    padding-bottom: 10px;
 }
+
+/* ------------main------------ */
+
+#main{
+    margin: 10px;
+}
+
+.img1{
+    float: center; 
+    width: 10em; 
+    height: 10em; 
+    margin-right: 8em;
+}
+.img2{
+    float: center; 
+    width: 17em; 
+    height: 11em; 
+    margin-right: 8em;
+}
+.img3{
+    text-align: center; 
+    width: 15em; 
+    height: 10em; 
+    margin-right: 8em;
+}
+
