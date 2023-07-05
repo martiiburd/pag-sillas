@@ -21,7 +21,6 @@ body{
 .div-galeria{
     text-align: center;
     border-radius: 1px solid #A5723B;
-
 }
 .zoom{
     transition: 0.5s;
@@ -99,3 +98,7 @@ body{
     margin-right: 8em;
 }
 
+iframe{
+    width: 300px; 
+    height: 200px;
+}
